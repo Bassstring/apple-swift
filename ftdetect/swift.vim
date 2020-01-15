@@ -8,7 +8,7 @@ fun! s:checkSwift()
   endif
 
   let line = getline(0)
-  if line =~~"^#.swift"
+  if line =~ "^#!.*swift"
     set ft=swift
   endif
 
