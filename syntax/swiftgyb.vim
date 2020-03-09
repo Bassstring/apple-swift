@@ -11,4 +11,3 @@ syn match gybPythonCode /\${[^}]*}/
 hi def link gybPythonCode CursorLineNr
 
 let b:current_syntax = "swiftgyb"
-
